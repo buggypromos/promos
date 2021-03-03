@@ -1,0 +1,47 @@
+﻿.coupon > table {
+    overflow: hidden !important;
+    width: 200px !important;
+    max-width: 200px !important;
+}
+
+.coupon table tr td:nth-child(2) {
+    visibility: hidden;
+}
+
+.coupon-container:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+#THUMB1001,#THUMB1000,#THUMB1002,#THUMB1003,#THUMB999 {
+    margin-left: 50px;
+}
+
+a[id^="print-"] {
+    display: none;
+}
+
+a[id^="print-"] {
+    float: right;
+    padding-right: 5px;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+@media screen and (min-width : 568px) {
+    .coupon table {
+        margin: auto;
+        width: 100% !important;
+        max-width: initial !important;
+    }
+
+    .coupon table tr td:nth-child(2) {
+        visibility: visible;
+    }
+}
+
+@media screen and (min-width : 992px) {
+    a[id^="print-"] {
+        display: unset;
+    }
+}

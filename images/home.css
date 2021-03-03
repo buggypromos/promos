@@ -1,0 +1,159 @@
+.stars {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+}
+
+.stars li {
+    display: inline;
+    color: #FFC107;
+    font-size: 22px;
+}
+
+#home-services {
+    margin-bottom: 40px;
+}
+
+#home-services p {
+    text-align: center;
+    margin: 0;
+}
+
+#home-services .service-cards p {
+    text-align: left;
+    height: 3em;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    margin: 0 auto;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}
+
+#home-services h2 {
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.btn-reviews {
+    padding: 12px;
+    height: 45px;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #000;
+    font-weight: 700;
+    color: #444;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.btn-service {
+    padding: 12px;
+    height: 45px;
+    width: 90%;
+    background-color: #fff;
+    border: 1px solid #000;
+    font-weight: 700;
+    color: #444;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.btn-reviews:hover,
+.btn-service:hover {
+    background-color: #404040;
+    color: #fff;
+    border: 1px solid #404040;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.review-header {
+    color: #c0c0c0;
+    margin-bottom: 20px;
+}
+
+#review-text {
+    height: 3em;
+    overflow: hidden;
+}
+
+.service-cards {
+    margin: 10px; 
+    background-color: #fff;
+    padding: 20px;
+}
+
+.img-responsive {
+    margin: auto;
+}
+
+.service-cards h4 {
+    margin: 20px auto;
+}
+
+.reviews-block {
+     background-color: #fff; 
+     padding: 70px 0;
+}
+
+.reviews-block .container .row {
+     margin-top: 40px;
+}
+
+
+/* -----------------------------------------------
+    Media Queries
+----------------------------------------------- */
+@media screen and (min-width: 768px) {
+    .btn-reviews,
+    .btn-service {
+        width: 175px;
+    }
+
+    .column {
+        position: relative;
+    }
+
+    .review-container {
+        padding-left: 10px;
+        padding-right: 10px;
+        max-width: 321px;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .column {
+        padding-bottom: 100px;
+    }
+
+    #card-wrapper .col-md-4 .btn-service {
+        bottom: 15px;
+        left: 75px;
+        position: absolute;
+    }
+
+    #card-wrapper .col-md-6 .service-cards,
+    #card-wrapper .col-md-12 .service-cards {
+        max-width: 340px;
+        margin: auto;
+    }
+
+    #card-wrapper .col-md-6 .btn-service {
+        bottom: 15px;
+        left: 85px;
+        position: absolute;
+    }
+
+    #card-wrapper .col-md-12 .btn-service {
+        bottom: 15px;
+        left: 85px;
+        position: absolute;
+    }
+}

@@ -1,0 +1,35 @@
+.card p {
+    margin-bottom: 0;
+}
+
+.card h3 a,
+.card h3 a:hover {
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+
+.address {
+    font-weight: bold;
+}
+
+button.btn-contact {
+    margin-top: 20px;
+    padding: 5px;
+    height: 45px;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #000;
+    font-weight: 700;
+}
+
+button.btn-contact:hover {
+    background-color: #404040;
+    color: #fff;
+    border: 1px solid #404040;
+    font-weight: 700;
+}
+
+.contact-comments {
+    height: 200px !important;
+}
